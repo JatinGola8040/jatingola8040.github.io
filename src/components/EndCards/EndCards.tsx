@@ -12,7 +12,7 @@ export default function EndCards() {
         <h3 className={`clean ${state.darkmode ? "dark-heading" : "light-heading"}`}>{state.language === "english" ? "Sauberer Code" : "Proficiency in Libraries"}</h3>
         <img
           className="code"
-          src={state.darkmode ? require("../../assets/images/libraries.PNG") : require("../../assets/images/libraries2.PNG")}
+          src={state.darkmode ? require("../../assets/images/libraries.PNG") : require("../../assets/images/libraries_2.PNG")}
         />
       </div>
 
@@ -24,6 +24,5 @@ export default function EndCards() {
         />
         </div>
       </div>
-    </div>
   );
 }

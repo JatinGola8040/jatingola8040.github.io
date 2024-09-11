@@ -82,15 +82,6 @@ export default function ContextMenu() {
         </h3>
       </div>
 
-      <div
-        className="context-menu-item"
-        onClick={copyURL}
-        onMouseDown={playAudio}
-        onMouseUp={playAudio}
-      >
-        <Share className="context-icon share" />
-        <h3>{state.language === "english" ? "Teilen" : "Share"}</h3>
-      </div>
     </div>
   );
 }
