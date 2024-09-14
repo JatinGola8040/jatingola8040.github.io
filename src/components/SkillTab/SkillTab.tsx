@@ -23,15 +23,19 @@ export default function SkillTab(props: SkillTabProps) {
     >
       <h3 className={`head ${state.darkmode ? "white" : ""}`}>{returnTabName(topic, state.language)}</h3>
       {topic === "languages" ? (
-        <div className="skill-tab-list languages">
-          <Image source="typescript" name="TypeScript" />
-          <Image source="javascript" name="JavaScript" />
-          <Image source="sass" name="SASS/SCSS" />
-          <Image source="css" name="CSS" />
-          <Image source="html" name="HTML" />
+        <div className="skill-tab-list">
           <Image source="python" name="Python" />
+          <Image source="c++" name="C++" />
+          <Image source="java" name="Java" />
+          <Image source="css" name="CSS" />
         </div>
       ) : null}
+      {topic === "analysis" ? (
+        <div className="skill-tab-list">
+          <Image source="powerbi" name="PowerBI" />
+          <Image source="tableau" name="Tableau Public" />
+        </div>
+      ) : null}      
       {topic === "frameworks" ? (
         <div className="skill-tab-list">
           <Image source="react" name="React" />

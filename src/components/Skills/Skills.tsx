@@ -19,6 +19,7 @@ export default function Skills() {
       <div className="skill-grid">
         <div className="skill-grid-first-row">
           <SkillTab topic="languages" />
+          <SkillTab topic="analysis" />
         </div>
         <div className="skill-grid-second-row">
           <SkillTab topic="frameworks" />

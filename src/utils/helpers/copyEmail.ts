@@ -1,7 +1,7 @@
 import toast, { Toaster } from "react-hot-toast";
 
 const copyEmail = () => {
-    navigator.clipboard.writeText("gianluca.jahn98@gmail.com");
+    navigator.clipboard.writeText("jating8040@gmail.com");
     toast('Copied E-Mail!', {
         icon: '📧',
         position: "top-left",

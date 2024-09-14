@@ -1,7 +1,7 @@
 import toast, { Toaster } from "react-hot-toast";
 
 const copyURL = () => {
-    navigator.clipboard.writeText("https://gianluca-jahn.de");
+    navigator.clipboard.writeText("https://https://github.com/JatinGola8040/");
     toast('Copied URL!', {
         icon: '🌐',
         position: "top-left",

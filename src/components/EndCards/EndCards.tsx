@@ -12,7 +12,7 @@ export default function EndCards() {
         <h3 className={`clean ${state.darkmode ? "dark-heading" : "light-heading"}`}>{state.language === "english" ? "Sauberer Code" : "Proficiency in Libraries"}</h3>
         <img
           className="code"
-          src={state.darkmode ? require("../../assets/images/libraries.PNG") : require("../../assets/images/libraries_2.PNG")}
+          src={state.darkmode ? require("../../assets/images/libraries_2.png") : require("../../assets/images/libraries.png")}
         />
       </div>
 
@@ -20,7 +20,7 @@ export default function EndCards() {
         <h3 className={`${state.darkmode ? "dark-heading" : "light-heading"}`}>{state.language === "english" ? "Performance-Optimierung" : "Skills"}</h3>
         <img
           className="code"
-          src={state.darkmode ? require("../../assets/images/skills.PNG") : require("../../assets/images/skillswh.PNG")}
+          src={state.darkmode ? require("../../assets/images/skillswh.png") : require("../../assets/images/skills.png")}
         />
         </div>
       </div>

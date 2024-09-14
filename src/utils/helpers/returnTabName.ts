@@ -13,6 +13,9 @@ const returnTabName = (topic: string, language: string) => {
         case "collaborative":
             returnedTopic = language === "english" ? "Arbeit in Teams" : "Collaborative Work";
             break;
+        case "analysis":
+            returnedTopic = "Analytic Tools";
+            break;
         case "prototyping":
             returnedTopic = "Prototyping";
             break;

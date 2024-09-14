@@ -15,7 +15,7 @@ export default function Hero() {
         className="container-avatar"
         initial={{ opacity: 0, y: 350 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ type: "spring", duration: 0.6 }}
+        transition={{ type: "spring", duration: 1.0 }}
       >
         <img
           className="img-avatar"
