@@ -32,7 +32,17 @@
             }
         }
 
-        .skill-grid-second-row,
+        .skill-grid-second-row{
+            display: flex;
+            align-self: center;
+            gap: 18px;
+            margin-top: 18px;
+
+            @media screen and (max-width: 640px) {
+                flex-direction: column;
+            }
+        }
+        
         .skill-grid-third-row {
             display: flex;
             gap: 18px;

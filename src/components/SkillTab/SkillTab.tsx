@@ -38,16 +38,16 @@ export default function SkillTab(props: SkillTabProps) {
       ) : null}      
       {topic === "frameworks" ? (
         <div className="skill-tab-list">
-          <Image source="react" name="React" />
-          <Image source={state.darkmode ? "next_2" : "next"} name="Next.js" />
-          <Image source="tailwind" name="TailwindCSS" />
+          <Image source="tf" name="TensorFlow" />
+          <Image source={state.darkmode ? "flask2" : "flask"} name="Flask" />
+          <Image source="pytorch" name="Pytorch" />
         </div>
       ) : null}
       {topic === "libraries" ? (
         <div className="skill-tab-list">
-          <Image source="redux" name="Redux" />
-          <Image source="framermotion" name="Framer Motion" />
-          <Image source="chakraui" name="Chakra UI" />
+          <Image source={state.darkmode ? "pandas2" : "pandas1"} name="Pandas" />
+          <Image source="numpy" name="Numpy" />
+          <Image source="seaborn" name="Seaborn" />
         </div>
       ) : null}
       {topic === "collaborative" ? (

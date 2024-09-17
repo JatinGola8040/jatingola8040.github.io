@@ -15,7 +15,7 @@
     align-items: center;
     width: 100vw;
     justify-content: center;
-    height: 60vh;
+    height: 80vh;
 
     @media screen and (max-width: 450px) {
       height: 30vh;
@@ -23,12 +23,12 @@
 
     .manifest {
         background: linear-gradient(300deg,#ffee07,#ff2b6a,#ab4bff,#5ca2ff,#df1700);
-        background-size: 360% 360%;
+        background-size: 400% 400%;
         animation: gradient-animation 30s ease infinite;
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin-bottom: 90px;
+        margin-bottom: 40px;
 
         @media screen and (max-width: 598px) {
           margin-bottom: 0px;
@@ -39,11 +39,11 @@
         }
 
         h1 {
-            font-family: "Inter", sans-serif;
-            font-size: 83px;
+            font-family: "Roboto", sans-serif;
+            font-size: 90px;
             line-height: 1.05;
-            letter-spacing: -0.04em;
-            max-width: 1200px;
+            letter-spacing: -0.02em;
+            max-width: 1500px;
             text-align: center;
 
             @media screen and (max-width: 1210px) {
