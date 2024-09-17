@@ -17,7 +17,7 @@ export default function NavBar() {
     >
       <img
         onClick={(e) => scroll("hero")}
-        src={require("../../assets/images/icon.jpg")}
+        src={require("../../assets/images/jg.png")}
         onMouseDown={playAudio}
         onMouseUp={playAudio}
       />
